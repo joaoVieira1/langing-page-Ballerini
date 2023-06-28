@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+
+}
+
+.imagem-logo-header{
+    width: 72px;
+    height: 72px;
+}
+
+.menu-header{
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item-header{
+    font-family: 'Sarala', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF2E7;
+}
+
+.main{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    margin-top: 18px;
+}
+
+.corpo-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.corpo-1-escritos{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo-corpo-1{
+    width: 308px;
+    height: 80px;
+    left: 368px;
+    top: 190px;
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    color: #FFF2E7;
+}
+
+.subtitulo-corpo-1{
+    width: 545px;
+    height: 46px;
+    left: 368px;
+    top: 302px;
+    font-family: 'Sarala', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #ECD6C4;
+}
+
+.botao-corpo-1{
+    width: 273px;
+    height: 41px;
+    left: 324px;
+    top: 396px;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    color: #2F2325;
+    width: 185px;
+    height: 67px;
+    left: 369px;
+    top: 382px;
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+}
+
+.balle-bot-logo{
+    width: 394.13px;
+    height: 429.31px;
+}
+
+.corpo-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.corpo-2-escritos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-corpo-2-titulo{
+    width: 271px;
+    height: 44px;
+    left: 817px;
+    top: 650px;
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF2E7;
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+}
+
+.item-corpo-2{
+    width: 1146px;
+    height: 73px;
+    left: 387px;
+    top: 725px;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #ECD6C4;
+    padding-top: 80px;
+    margin-bottom: 35px;
+}
+
+.footer{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
